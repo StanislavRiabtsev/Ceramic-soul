@@ -95,23 +95,26 @@
 						<fieldset class="touch__fieldset">
 							<div class="touch__input-block">
 								<label for="name" class="touch__label">Name</label>
-								<input type="text" id="name" name="name" placeholder="Name" class="touch__input">
+								<input type="text" id="name" name="name" placeholder="Name" class="touch__input"
+									required>
 							</div>
 							<div class="touch__input-block">
 								<label for="name" class="touch__label">Email</label>
-								<input type="email" id="email" name="email" placeholder="Email" class="touch__input">
+								<input type="email" id="email" name="email" placeholder="Email" class="touch__input"
+									required>
 							</div>
 						</fieldset>
 						<label for="question" class="touch__label">Your question</label>
-						<textarea class="touch__textarea" name="question" id="question"
-							placeholder="Question"></textarea>
+						<textarea class="touch__textarea" name="question" id="question" placeholder="Question"
+							required></textarea>
 
 						<label for="checkbox" class="touch__label touch__check-block">
-							<input type="checkbox" id="checkbox" class="touch__checkbox">
+							<input type="checkbox" id="checkbox" class="touch__checkbox" required>
 							I agree with the <a href="#">terms</a></label>
+						<button class="btn-send touch__btn">send request</button>
 					</form>
 				</div>
-				<button class="btn-send touch__btn">send request</button>
+
 			</div>
 		</div>
 	</section>
