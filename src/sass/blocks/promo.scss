@@ -7,8 +7,7 @@
     }
 
     &__title {
-        margin-block-start: 50px;
-        padding-inline: 0 5px;
+        padding-inline: 5px;
     }
 
     &__cta {
@@ -19,7 +18,7 @@
         margin: 0 auto;
         width: 270px;
         height: 377px;
-        box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
     }
 
     &__btn {
@@ -31,7 +30,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .promo {
         &__wrapper {
             display: flex;
@@ -56,7 +55,7 @@
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .promo {
         &__potter {
             display: block;
@@ -74,7 +73,7 @@
     }
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width: 1920px) {
     .promo {
         padding-top: 40px;
 
@@ -92,8 +91,8 @@
         }
 
         &__title {
-            padding-top: 384px;
             padding-left: 642px;
+            padding-top: 384px;
         }
 
         &__potter {

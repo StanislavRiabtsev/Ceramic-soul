@@ -1,5 +1,5 @@
 @use "/src/sass/libs/modern-normalize.min.css";
-@use "/src/sass/libs/grids.css";
+@use "/src/sass/libs/grids-min.css";
 @use "/src/sass/libs/grids-responsive-min.css";
 @use "/src/sass/libs/fontello.css";
 @use "/src/sass/base/basic.scss";
@@ -12,5 +12,3 @@
 @use "/src/sass/blocks/promo.scss";
 @use "/src/sass/blocks/activites.scss";
 @use "/src/sass/blocks/touch.scss";
-
-@use "/src/sass/base/variables.scss";
