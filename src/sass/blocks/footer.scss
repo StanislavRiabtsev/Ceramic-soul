@@ -1,0 +1,135 @@
+@use "/src/sass/base/variables.scss" as *;
+
+.footer {
+    padding: 50px 0;
+    background-color: $dark;
+
+    &__spaced {
+        margin-top: 60px;
+    }
+
+    &__label {
+        display: block;
+    }
+
+    &__input {
+        display: block;
+        margin-top: 40px;
+        width: 293px;
+        padding-bottom: 15px;
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        border-bottom: 1px solid $ui-active;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $ui-active;
+
+        &::placeholder {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $ui-active;
+        }
+
+        &:focus {
+            border: none;
+            outline: 1px solid $dark;
+        }
+    }
+
+    &__check-block {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        color: $light;
+
+        a {
+            color: #a22dc6;
+            text-decoration: none;
+            margin-left: 2px;
+        }
+    }
+
+    &__checkbox {
+        margin-right: 15px;
+        width: 15px;
+        height: 15px;
+    }
+
+    &__btn {
+        margin-top: 20px;
+    }
+
+    &__links {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 66px;
+        row-gap: 40px;
+    }
+
+    &__nav {
+        margin-top: 40px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            padding: 0;
+            list-style-type: none;
+        }
+    }
+
+    &__link {
+        a {
+            color: $light;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+            text-transform: none;
+        }
+    }
+
+
+    .title-h2-footer {
+        display: block;
+    }
+
+    .title-h3-footer {
+        margin-top: 40px;
+    }
+
+    &__social {
+        margin-top: 40px;
+    }
+
+    &__social-block {
+        margin-top: 40px;
+        display: flex;
+        gap: 10px;
+        padding: 0;
+        list-style-type: none;
+
+        a {
+            color: $light;
+            font-size: 24px;
+        }
+    }
+
+    .icon-pinterest-circled {
+        width: 92px;
+        height: 24px;
+    }
+
+    &__copyright {
+        margin-top: 40px;
+        text-align: center;
+        color: $light;
+    }
+}
