@@ -32,6 +32,23 @@
             margin-top: 80px;
 
             iframe {
+                display: block;
+                margin: 0 auto;
+                width: 801px;
+                height: 604px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .findus {
+        padding-top: 100px;
+
+        &__wrapper {
+            margin-top: 80px;
+
+            iframe {
                 width: 801px;
                 height: 604px;
             }
